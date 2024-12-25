@@ -24,6 +24,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.UUID;
+import org.junit.Test; //Cannot resolve symbol 'Test'
+
+import static org.mockito.Mockito.*; //Cannot resolve symbol 'mockito'
 
 @RestController
 @RequestMapping("/api/v1/videos")

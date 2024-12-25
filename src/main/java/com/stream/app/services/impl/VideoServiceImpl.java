@@ -18,6 +18,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.List;
+import org.junit.Test; //Cannot resolve symbol 'Test'
+
+import static org.mockito.Mockito.*; //Cannot resolve symbol 'mockito'
 
 @Service
 public class VideoServiceImpl implements VideoService {
